@@ -4,7 +4,6 @@
   outline: none;
   -webkit-tap-highlight-color: transparent;
   opacity: 100%;
-  /* transition: 0.25s; */
 }
 
 .mobile-navbar
@@ -39,42 +38,6 @@ body
   opacity: 100%;
   transition: 0.3s;
 }
-
-/* START OF MOBILE STYLES */
-
-.mobile-navbar
-{
-	list-style-type: none;
-  /* background: rgba(0, 0, 0, 1.0); */
-  opacity: 100%;
-  transition: 0.3s;
-}
-
-.mobile-navbar li
-{
-	margin: 7.5px auto;
-	width: 87.5%;
-}
-
-.mobile-navbar li input
-{
-	height: 50px;
-	width: 100%;
-	background: #1d1d1f;
-	color: #fff;
-	text-align: center;
-	border: none;
-	border-radius: 50px;
-	outline: none;
-	font-size: 20px;
-}
-
-.mobile-navbar input::placeholder
-{
-	color: lightgrey;
-}
-
-/* END OF MOBILE STYLES */
 
 ul
 {
@@ -266,12 +229,6 @@ ul
 	.navbar
 	{
 		display: none;
-	}
-
-	.mobile-navbar
-	{
-		display: block;
-
 	}
 
 	.additionals-first-row, .additionals-second-row
